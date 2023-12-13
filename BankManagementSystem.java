@@ -24,6 +24,8 @@ public class BankManagementSystem {
 
         // Close the scanner when done
         scanner.close();
-        
+        ConnectionwithSQL sqlConnection =new ConnectionwithSQL();
+        sqlConnection.JDBCMySQLConnection();
+
     }
 }
